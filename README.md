@@ -1,5 +1,6 @@
 # Energy Monitor
 
+[![CI](https://github.com/dzagatskiy/deye-energy-monitoring/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dzagatskiy/deye-energy-monitoring/actions/workflows/ci.yml)
 [![Platform](https://img.shields.io/badge/platform-iOS%2017%2B-lightgrey?logo=apple)](https://developer.apple.com/ios/)
 [![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](https://swift.org)
 [![SwiftUI](https://img.shields.io/badge/UI-SwiftUI%20%2B%20WidgetKit-0A84FF?logo=swift&logoColor=white)](https://developer.apple.com/widgets/)

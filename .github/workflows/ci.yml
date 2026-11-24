@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: EnergyCore tests
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          swift --version
+
+      - uses: actions/cache@v4
+        with:
+          path: Packages/EnergyCore/.build
+          key: spm-${{ runner.os }}-${{ hashFiles('Packages/EnergyCore/Package.swift', 'Packages/EnergyCore/Package.resolved') }}
+          restore-keys: spm-${{ runner.os }}-
+
+      - name: Run tests
+        run: scripts/test.sh
+
+  build:
+    name: App + widgets (iOS Simulator)
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        # Simulator build without signing: no certificates or Deye keys are needed in CI.
+        run: scripts/build.sh CODE_SIGNING_ALLOWED=NO
