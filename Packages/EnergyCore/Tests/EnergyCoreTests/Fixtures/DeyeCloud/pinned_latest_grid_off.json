@@ -1,0 +1,366 @@
+{
+  "endpoint": "/device/latest",
+  "request": {
+    "deviceList": [
+      "<deviceSn-20>"
+    ]
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "1000000",
+    "msg": "success",
+    "success": true,
+    "requestId": "ad122a0512ec12df",
+    "deviceDataList": [
+      {
+        "deviceSn": "<deviceSn-20>",
+        "deviceType": "INVERTER",
+        "deviceState": 1,
+        "collectionTime": 1795450705,
+        "dataList": [
+          {
+            "key": "RatedPower",
+            "value": "6000.00",
+            "unit": "W"
+          },
+          {
+            "key": "ProtocolVersion",
+            "value": "0201",
+            "unit": null
+          },
+          {
+            "key": "MAIN",
+            "value": "4388-1516-0000",
+            "unit": null
+          },
+          {
+            "key": "HMI",
+            "value": "0000-C381-0001",
+            "unit": null
+          },
+          {
+            "key": "LithiumBatteryVersionNumber",
+            "value": "0000F004",
+            "unit": null
+          },
+          {
+            "key": "DCVoltagePV1",
+            "value": "1.00",
+            "unit": "V"
+          },
+          {
+            "key": "DCVoltagePV2",
+            "value": "0.60",
+            "unit": "V"
+          },
+          {
+            "key": "DCVoltagePV3",
+            "value": "0.00",
+            "unit": "V"
+          },
+          {
+            "key": "PVDailyPowerGenerationActive",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "PVCumulativePowerGenerationActive",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "InverterTotalReactivePower",
+            "value": "214",
+            "unit": "Var"
+          },
+          {
+            "key": "DCCurrentPV1",
+            "value": "0.00",
+            "unit": "A"
+          },
+          {
+            "key": "DCCurrentPV2",
+            "value": "0.00",
+            "unit": "A"
+          },
+          {
+            "key": "DCCurrentPV3",
+            "value": "0.00",
+            "unit": "A"
+          },
+          {
+            "key": "DCPowerPV1",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "DCPowerPV2",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "DCPowerPV3",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "TotalDCInputPower",
+            "value": "0.00",
+            "unit": "W"
+          },
+          {
+            "key": "ACVoltageRUA",
+            "value": "230.00",
+            "unit": "V"
+          },
+          {
+            "key": "ACCurrentRUA",
+            "value": "1.00",
+            "unit": "A"
+          },
+          {
+            "key": "ACOutputFrequencyR",
+            "value": "50.00",
+            "unit": "Hz"
+          },
+          {
+            "key": "PowerFactor",
+            "value": "1.00",
+            "unit": null
+          },
+          {
+            "key": "TotalActiveProduction",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "DailyActiveProduction",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "InverterOutputPowerL1L2",
+            "value": "220",
+            "unit": "W"
+          },
+          {
+            "key": "GridTiePower",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "GridVoltageL1L2",
+            "value": "4.50",
+            "unit": "V"
+          },
+          {
+            "key": "GridCurrentL1L2",
+            "value": "0.00",
+            "unit": "A"
+          },
+          {
+            "key": "ExternalCTPowerL1L2",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "GridFrequency",
+            "value": "0.00",
+            "unit": "Hz"
+          },
+          {
+            "key": "TotalGridPower",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "CumulativeGridFeedIn",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "CumulativeEnergyPurchased",
+            "value": "25.60",
+            "unit": "kWh"
+          },
+          {
+            "key": "DailyGridFeedIn",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "DailyEnergyPurchased",
+            "value": "4.70",
+            "unit": "kWh"
+          },
+          {
+            "key": "GridTotalReactivePower",
+            "value": "0",
+            "unit": "Var"
+          },
+          {
+            "key": "LoadVoltageL1L2",
+            "value": "232.30",
+            "unit": "V"
+          },
+          {
+            "key": "TotalConsumptionPower",
+            "value": "220",
+            "unit": "W"
+          },
+          {
+            "key": "CumulativeConsumption",
+            "value": "15.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "DailyConsumption",
+            "value": "4.30",
+            "unit": "kWh"
+          },
+          {
+            "key": "BatteryVoltage",
+            "value": "52.95",
+            "unit": "V"
+          },
+          {
+            "key": "BatteryCurrent",
+            "value": "3.98",
+            "unit": "A"
+          },
+          {
+            "key": "BatteryPower",
+            "value": "210",
+            "unit": "W"
+          },
+          {
+            "key": "SOC",
+            "value": "92",
+            "unit": "%"
+          },
+          {
+            "key": "TotalChargeEnergy",
+            "value": "13.70",
+            "unit": "kWh"
+          },
+          {
+            "key": "TotalDischargeEnergy",
+            "value": "3.40",
+            "unit": "kWh"
+          },
+          {
+            "key": "DailyChargingEnergy",
+            "value": "2.20",
+            "unit": "kWh"
+          },
+          {
+            "key": "DailyDischargingEnergy",
+            "value": "1.80",
+            "unit": "kWh"
+          },
+          {
+            "key": "BatteryRatedCapacity",
+            "value": "300",
+            "unit": "Ah"
+          },
+          {
+            "key": "BMSVoltage",
+            "value": "53.00",
+            "unit": "V"
+          },
+          {
+            "key": "BMSCurrent",
+            "value": "4",
+            "unit": "A"
+          },
+          {
+            "key": "BMSTemperature",
+            "value": "17.00",
+            "unit": "℃"
+          },
+          {
+            "key": "ChargeCurrentLimit",
+            "value": "31",
+            "unit": "A"
+          },
+          {
+            "key": "DischargeCurrentLimit",
+            "value": "157",
+            "unit": "A"
+          },
+          {
+            "key": "BMSSOC",
+            "value": "92",
+            "unit": "%"
+          },
+          {
+            "key": "BMSChargeVoltage",
+            "value": "58.40",
+            "unit": "V"
+          },
+          {
+            "key": "BMSDischargeVoltage",
+            "value": "0.00",
+            "unit": "V"
+          },
+          {
+            "key": "Temperature- Battery",
+            "value": "17.00",
+            "unit": "℃"
+          },
+          {
+            "key": "DC Temperature",
+            "value": "29.50",
+            "unit": "℃"
+          },
+          {
+            "key": "AC Temperature",
+            "value": "24.60",
+            "unit": "℃"
+          },
+          {
+            "key": "GridRelayStatus",
+            "value": "Break",
+            "unit": null
+          },
+          {
+            "key": "GenDailyRunTime",
+            "value": "0.00",
+            "unit": "h"
+          },
+          {
+            "key": "GeneratorFrequency",
+            "value": "0.00",
+            "unit": "Hz"
+          },
+          {
+            "key": "GenVoltage",
+            "value": "8.40",
+            "unit": "V"
+          },
+          {
+            "key": "TotalGenPower",
+            "value": "0",
+            "unit": "W"
+          },
+          {
+            "key": "DailyProductionGenerator",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "TotalProductionGenerator",
+            "value": "0.00",
+            "unit": "kWh"
+          },
+          {
+            "key": "UPSLoadPower",
+            "value": "220",
+            "unit": "W"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "endpoint": "/station/latest",
+  "request": {
+    "stationId": "<stationId-10>"
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "1000000",
+    "msg": "success",
+    "success": true,
+    "requestId": "40c3a5232397d65e",
+    "generationPower": 0.0,
+    "consumptionPower": 6.0,
+    "gridPower": null,
+    "purchasePower": null,
+    "wirePower": 79.0,
+    "chargePower": null,
+    "dischargePower": null,
+    "batteryPower": -29.0,
+    "batterySOC": 98.0,
+    "irradiateIntensity": null,
+    "lastUpdateTime": 1795445454.0
+  }
+}

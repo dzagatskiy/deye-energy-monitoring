@@ -1,0 +1,15 @@
+{
+  "endpoint": "/device/list",
+  "request": {
+    "page": 1,
+    "size": 20
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "2101019",
+    "msg": "auth invalid token",
+    "success": false,
+    "requestId": "ccd11087b58e16c2"
+  }
+}

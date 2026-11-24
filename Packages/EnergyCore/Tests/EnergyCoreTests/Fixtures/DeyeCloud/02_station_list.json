@@ -1,0 +1,58 @@
+{
+  "endpoint": "/station/list",
+  "request": {
+    "page": 1,
+    "size": 20
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "1000000",
+    "msg": "success",
+    "success": true,
+    "requestId": "fbfc918abd8266ba",
+    "total": 2,
+    "stationList": [
+      {
+        "id": "<stationId-10>",
+        "name": "<stationName-12>",
+        "locationLat": "<locationLat-14>",
+        "locationLng": "<locationLng-15>",
+        "locationAddress": "<locationAddress-16>",
+        "regionNationId": 232,
+        "countryCode": null,
+        "regionTimezone": "Europe/Helsinki",
+        "gridInterconnectionType": "BATTERY_BACKUP",
+        "installedCapacity": 6.0,
+        "startOperatingTime": 1785151585.0,
+        "createdDate": 1785151671.0,
+        "batterySOC": 98.0,
+        "connectionStatus": "ALL_OFFLINE",
+        "generationPower": 0.0,
+        "lastUpdateTime": 1795445454.0,
+        "contactPhone": "",
+        "ownerName": null
+      },
+      {
+        "id": "<stationId-11>",
+        "name": "<stationName-13>",
+        "locationLat": "<locationLat-17>",
+        "locationLng": "<locationLng-18>",
+        "locationAddress": "<locationAddress-19>",
+        "regionNationId": 232,
+        "countryCode": null,
+        "regionTimezone": "Asia/Beirut",
+        "gridInterconnectionType": "BATTERY_BACKUP",
+        "installedCapacity": 6.0,
+        "startOperatingTime": 1791449432.0,
+        "createdDate": 1791449487.0,
+        "batterySOC": 92.0,
+        "connectionStatus": "NORMAL",
+        "generationPower": 0.0,
+        "lastUpdateTime": 1795451067.0,
+        "contactPhone": "",
+        "ownerName": null
+      }
+    ]
+  }
+}

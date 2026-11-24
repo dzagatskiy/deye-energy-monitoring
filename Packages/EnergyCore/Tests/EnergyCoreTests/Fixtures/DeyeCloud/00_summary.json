@@ -1,0 +1,157 @@
+{
+  "region": "eu",
+  "calls": [
+    {
+      "name": "01_account_token",
+      "endpoint": "/account/token",
+      "httpStatus": 200
+    },
+    {
+      "name": "02_station_list",
+      "endpoint": "/station/list",
+      "httpStatus": 200
+    },
+    {
+      "name": "03_device_list",
+      "endpoint": "/device/list",
+      "httpStatus": 200
+    },
+    {
+      "name": "04_station_latest",
+      "endpoint": "/station/latest",
+      "httpStatus": 200
+    },
+    {
+      "name": "03b_station_list_with_device",
+      "endpoint": "/station/listWithDevice",
+      "httpStatus": 200
+    },
+    {
+      "name": "05_device_latest",
+      "endpoint": "/device/latest",
+      "httpStatus": 200
+    },
+    {
+      "name": "06_device_measure_points",
+      "endpoint": "/device/measurePoints",
+      "httpStatus": 200
+    },
+    {
+      "name": "07_device_history_yesterday",
+      "endpoint": "/device/history",
+      "httpStatus": 200
+    },
+    {
+      "name": "07_device_history_today",
+      "endpoint": "/device/history",
+      "httpStatus": 200
+    },
+    {
+      "name": "08_device_latest_again",
+      "endpoint": "/device/latest",
+      "httpStatus": 200
+    }
+  ],
+  "tokenFields": [
+    "accessToken",
+    "code",
+    "expiresIn",
+    "msg",
+    "refreshToken",
+    "requestId",
+    "scope",
+    "success",
+    "tokenType",
+    "uid"
+  ],
+  "latestDataKeys": [
+    "AC Temperature",
+    "ACCurrentRUA",
+    "ACOutputFrequencyR",
+    "ACVoltageRUA",
+    "BMSChargeVoltage",
+    "BMSCurrent",
+    "BMSDischargeVoltage",
+    "BMSSOC",
+    "BMSTemperature",
+    "BMSVoltage",
+    "BatteryCurrent",
+    "BatteryPower",
+    "BatteryRatedCapacity",
+    "BatteryVoltage",
+    "ChargeCurrentLimit",
+    "CumulativeConsumption",
+    "CumulativeEnergyPurchased",
+    "CumulativeGridFeedIn",
+    "DC Temperature",
+    "DCCurrentPV1",
+    "DCCurrentPV2",
+    "DCCurrentPV3",
+    "DCPowerPV1",
+    "DCPowerPV2",
+    "DCPowerPV3",
+    "DCVoltagePV1",
+    "DCVoltagePV2",
+    "DCVoltagePV3",
+    "DailyActiveProduction",
+    "DailyChargingEnergy",
+    "DailyConsumption",
+    "DailyDischargingEnergy",
+    "DailyEnergyPurchased",
+    "DailyGridFeedIn",
+    "DailyProductionGenerator",
+    "DischargeCurrentLimit",
+    "ExternalCTPowerL1L2",
+    "GenDailyRunTime",
+    "GenVoltage",
+    "GeneratorFrequency",
+    "GridCurrentL1L2",
+    "GridFrequency",
+    "GridRelayStatus",
+    "GridTiePower",
+    "GridVoltageL1L2",
+    "HMI",
+    "InverterOutputPowerL1L2",
+    "LithiumBatteryVersionNumber",
+    "LoadVoltageL1L2",
+    "MAIN",
+    "PVCumulativePowerGenerationActive",
+    "PVDailyPowerGenerationActive",
+    "ProtocolVersion",
+    "RatedPower",
+    "SOC",
+    "Temperature- Battery",
+    "TotalActiveProduction",
+    "TotalChargeEnergy",
+    "TotalConsumptionPower",
+    "TotalDCInputPower",
+    "TotalDischargeEnergy",
+    "TotalGenPower",
+    "TotalGridPower",
+    "TotalProductionGenerator",
+    "UPSLoadPower"
+  ],
+  "history_yesterday": {
+    "frames": 235,
+    "medianStepSeconds": 343,
+    "maxStepSeconds": 7330
+  },
+  "history_yesterday_textValues": [
+    "Pull-in"
+  ],
+  "history_today": {
+    "frames": 106,
+    "medianStepSeconds": 343,
+    "maxStepSeconds": 25556
+  },
+  "history_today_textValues": [
+    "Pull-in"
+  ],
+  "historyAcceptedPoints": [
+    "SOC",
+    "BatteryPower",
+    "TotalConsumptionPower",
+    "GridRelayStatus",
+    "GridStatus"
+  ]
+}

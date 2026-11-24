@@ -1,0 +1,2574 @@
+{
+  "endpoint": "/device/history",
+  "request": {
+    "deviceSn": "<deviceSn-20>",
+    "granularity": 1,
+    "startAt": "2026-11-23",
+    "endAt": "2026-11-23",
+    "measurePoints": [
+      "SOC",
+      "BatteryPower",
+      "TotalConsumptionPower",
+      "GridRelayStatus",
+      "GridStatus"
+    ]
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "1000000",
+    "msg": "success",
+    "success": true,
+    "requestId": "1565007aca62ab55",
+    "deviceSn": "<deviceSn-20>",
+    "deviceId": "<deviceId-22>",
+    "deviceType": "INVERTER",
+    "granularity": 1,
+    "dataList": [
+      {
+        "time": "1795384839",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795384873",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-69",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795385217",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-20",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795385560",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-22",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795385903",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795386246",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795386590",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795386933",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795387277",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-34",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795387620",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-15",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795387963",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795388035",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795388399",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-36",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795388742",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-32",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795389085",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795389428",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795389772",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795390115",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-28",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795390458",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-28",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795390801",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795391144",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795391488",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795391831",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795392174",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795392517",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795392861",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-31",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795393205",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795393548",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795393892",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795394235",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795394579",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-31",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795394922",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795395265",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795395609",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795395952",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-21",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795396295",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-22",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795396639",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-33",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795396981",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-28",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795397326",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-22",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795397669",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795398012",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795398356",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-32",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795398699",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-22",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795398850",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-33",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795399217",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-33",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795399560",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-18",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "5",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795399905",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795400248",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795400592",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-35",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795400936",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795401279",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-21",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795401622",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795401965",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-33",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795402309",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795402652",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795402995",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-38",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795403338",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-19",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795403681",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795404025",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795404368",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795404712",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795405056",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795405399",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795405742",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795406085",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795406428",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-37",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795406771",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795407115",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795407458",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795407801",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795408145",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795408488",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-38",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795408831",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795409175",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795409518",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795409666",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-30",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795410030",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-33",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795410373",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795410716",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795411060",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-32",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795411403",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-26",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795411746",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-32",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795412089",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-31",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795412432",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-34",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795412777",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-35",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795413120",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-47",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795413463",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-34",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795413810",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-39",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795414155",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-41",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795414507",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-38",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795414850",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-33",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795415193",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-39",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "100",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795440749",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-17",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795441125",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795441500",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-22",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795441866",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795442231",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795442596",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795442962",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795443327",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795443692",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-24",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795444057",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-22",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795444410",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-27",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795444754",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-25",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "7",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795445097",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-23",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      },
+      {
+        "time": "1795445440",
+        "itemList": [
+          {
+            "unit": "W",
+            "value": "-29",
+            "key": "BatteryPower"
+          },
+          {
+            "unit": "W",
+            "value": "6",
+            "key": "TotalConsumptionPower"
+          },
+          {
+            "unit": "%",
+            "value": "98",
+            "key": "SOC"
+          },
+          {
+            "value": "Pull-in",
+            "key": "GridRelayStatus"
+          }
+        ]
+      }
+    ]
+  }
+}

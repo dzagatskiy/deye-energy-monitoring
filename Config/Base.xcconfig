@@ -1,0 +1,6 @@
+// Shared build settings for the app and the widget extension.
+// Optional personal developer keys: copy Secrets.example.xcconfig to Secrets.xcconfig (git-ignored).
+// Without it the app asks for AppId/AppSecret on first launch.
+DEYE_APP_ID =
+DEYE_APP_SECRET =
+#include? "Secrets.xcconfig"

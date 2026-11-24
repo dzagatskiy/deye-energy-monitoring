@@ -1,0 +1,22 @@
+{
+  "endpoint": "/account/token",
+  "request": {
+    "appSecret": "<appSecret-7>",
+    "email": "<email-3>",
+    "password": "<password-8>"
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "1000000",
+    "msg": "success",
+    "success": true,
+    "requestId": "6d56ea773d074c52",
+    "accessToken": "<accessToken-4>",
+    "tokenType": "<tokenType-5>",
+    "refreshToken": "<refreshToken-6>",
+    "expiresIn": "5183999",
+    "scope": "all",
+    "uid": "<uid-9>"
+  }
+}

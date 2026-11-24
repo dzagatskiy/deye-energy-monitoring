@@ -1,0 +1,77 @@
+{
+  "endpoint": "/station/listWithDevice",
+  "request": {
+    "page": 1,
+    "size": 20,
+    "deviceType": "INVERTER"
+  },
+  "httpStatus": 200,
+  "rateLimitHeaders": {},
+  "response": {
+    "code": "1000000",
+    "msg": "success",
+    "success": true,
+    "requestId": "bd62d992a278db1b",
+    "stationTotal": 2,
+    "stationList": [
+      {
+        "id": "<stationId-10>",
+        "name": "<stationName-12>",
+        "locationLat": "<locationLat-14>",
+        "locationLng": "<locationLng-15>",
+        "locationAddress": "<locationAddress-16>",
+        "regionNationId": 232,
+        "regionTimezone": "Europe/Helsinki",
+        "type": "HOUSE_ROOF",
+        "gridInterconnectionType": "BATTERY_BACKUP",
+        "installedCapacity": 6.0,
+        "startOperatingTime": 1785151585.0,
+        "createdDate": 1785151671.0,
+        "contactPhone": "",
+        "ownerName": null,
+        "deviceTotal": 1,
+        "deviceListItems": [
+          {
+            "deviceSn": "<deviceSn-20>",
+            "deviceId": "<deviceId-22>",
+            "parentId": 0,
+            "deviceType": "INVERTER",
+            "connectStatus": 0,
+            "collectionTime": 1795445440,
+            "productId": "0_5407_1",
+            "stationId": "<stationId-10>"
+          }
+        ]
+      },
+      {
+        "id": "<stationId-11>",
+        "name": "<stationName-13>",
+        "locationLat": "<locationLat-17>",
+        "locationLng": "<locationLng-18>",
+        "locationAddress": "<locationAddress-19>",
+        "regionNationId": 232,
+        "regionTimezone": "Asia/Beirut",
+        "type": "HOUSE_ROOF",
+        "gridInterconnectionType": "BATTERY_BACKUP",
+        "installedCapacity": 6.0,
+        "startOperatingTime": 1791449432.0,
+        "createdDate": 1791449487.0,
+        "contactPhone": "",
+        "ownerName": null,
+        "deviceTotal": 1,
+        "deviceListItems": [
+          {
+            "deviceSn": "<deviceSn-21>",
+            "deviceId": "<deviceId-23>",
+            "parentId": 0,
+            "deviceType": "INVERTER",
+            "connectStatus": 1,
+            "collectionTime": 1795450885,
+            "productId": "0_5407_1",
+            "stationId": "<stationId-11>"
+          }
+        ]
+      }
+    ]
+  }
+}
