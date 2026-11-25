@@ -49,6 +49,10 @@ struct RootView: View {
             }
         }
         .task { await model.load() }
+        // Keys may have been saved by the "Зберегти ключі Deye" shortcut while the app was in the background.
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { model.reloadAuth() }
+        }
         // Ask for notification permission once the user has data to be notified about.
         .task(id: model.phase) {
             if model.phase == .ready { await model.requestNotificationsIfNeeded() }

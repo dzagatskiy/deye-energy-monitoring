@@ -95,3 +95,29 @@ struct RememberPasswordTests {
         #expect(RefreshService.describe(DataSourceError.loginRequired) == "Сесія Deye Cloud завершилась, увійдіть знову")
     }
 }
+
+@Suite("Strict import for Shortcuts")
+struct DeyeAppCredentialsImportTests {
+    @Test("Page text with both keys")
+    func success() throws {
+        let page = "Deye Cloud Developer\nMy app\nApp ID\n\(fakeId)\nApp Secret\n\(fakeSecret)\nCreated 2026-11-25"
+        let keys = try DeyeAppCredentialsParser.credentials(from: page)
+        #expect(keys == DeyeAppCredentials(appId: fakeId, appSecret: fakeSecret))
+    }
+
+    @Test("Errors say what is missing")
+    func errors() {
+        #expect(throws: DeyeAppCredentialsParser.ImportError.emptyInput) {
+            try DeyeAppCredentialsParser.credentials(from: "  \n ")
+        }
+        #expect(throws: DeyeAppCredentialsParser.ImportError.missingAppSecret) {
+            try DeyeAppCredentialsParser.credentials(from: "AppId: \(fakeId)")
+        }
+        #expect(throws: DeyeAppCredentialsParser.ImportError.missingAppId) {
+            try DeyeAppCredentialsParser.credentials(from: "AppSecret: \(fakeSecret)")
+        }
+        #expect(throws: DeyeAppCredentialsParser.ImportError.missingAppId) {
+            try DeyeAppCredentialsParser.credentials(from: "Увійдіть у свій акаунт")
+        }
+    }
+}

@@ -39,3 +39,24 @@ public enum DeyeAppCredentialsParser {
         return String(text[r])
     }
 }
+
+extension DeyeAppCredentialsParser {
+    public enum ImportError: Error, Equatable, Sendable {
+        case emptyInput
+        case missingAppId
+        case missingAppSecret
+        case implausible
+    }
+
+    /// Strict variant for automation (Shortcuts): both keys must be found and look plausible,
+    /// otherwise nothing is saved. Used where there is no form for the user to correct the result.
+    public static func credentials(from text: String) throws(ImportError) -> DeyeAppCredentials {
+        guard !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { throw .emptyInput }
+        let r = parse(text)
+        guard let appId = r.appId else { throw .missingAppId }
+        guard let appSecret = r.appSecret else { throw .missingAppSecret }
+        let keys = DeyeAppCredentials(appId: appId, appSecret: appSecret)
+        guard keys.isPlausible else { throw .implausible }
+        return keys
+    }
+}
